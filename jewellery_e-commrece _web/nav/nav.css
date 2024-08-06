@@ -1,0 +1,34 @@
+.navbar{
+    background-color: rgb(206, 143, 143);
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+   float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+}
+ .logoline{
+    background-color: rgb(206, 143, 143);
+ }
+ .logoline ul{
+    overflow: auto;
+ }
+ .logoline li{
+    float: right;
+    list-style: none;
+    margin: 13px 20px;
+ }
+ .logoline li a{
+    text-decoration: none;
+    color: black;
+    padding: 3px 3px;
+ }
+
+

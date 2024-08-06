@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: rgb(230, 171, 209);
+    border: 2px solid rgb(166, 110, 152);
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+body{background-color: rgb(238, 189, 213);}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 325px;
+    background-color: rgb(241, 176, 229);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.card-container{
+    padding: 16px;
+}
+.card-container h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+
+
+.Imgslider{
+ width: 100%;
+ height: 400px;
+ background-image:url("kada.jpeg");
+ background-size: 100% 100%;
+ box-shadow: #472323 0px 8px 24px;
+ animation: changeimg 30s linear infinite;
+}
+@keyframes changeing{
+    0%{
+     background-image: url("sale1.jpeg");   
+    }
+    25%{
+        background-image: url(sale1.jpeg);   
+       }
+    50%{
+        background-image:url(sale1.jpeg);   
+       }
+    75%{
+        background-image: url(sale1.jpeg);   
+       }
+    100%{
+        background-image: url(sale1.jpeg);   
+       }
+}

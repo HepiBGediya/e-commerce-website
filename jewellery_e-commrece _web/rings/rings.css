@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.rings-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body{
+    background-color: rgb(244, 212, 227);
+}
+.ring{
+    width: 325px;
+    background-color: rgb(241, 176, 229);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.ring img{
+    width: 100%;
+    height: auto;
+}
+.ringd{
+    padding: 16px;
+}
+.ringd h4{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.ringoff{
+    width: 100%;
+    height: 400px;
+    background-image:url("ringoff1.jpeg");
+    background-size: 100% 100%;
+    box-shadow: #472323 0px 8px 24px;
+}
